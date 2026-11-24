@@ -96,7 +96,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                   className="flex items-center gap-1 hover:text-[#00e5ff]"
                 >
                   <Linkedin className="w-3.5 h-3.5 text-[#00e5ff]" />
-                  linkedin.com/in/devatharshini-r-70a221427
+                  linkedin.com/in/r-devatharshini-405a9a43a
                 </a>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                   </div>
                   <div className="text-left sm:text-right">
                     <span className="text-xs font-mono text-[#00ff9d] font-semibold">
-                      2025 • 94.1%
+                      2024 — 2025 • 94.1%
                     </span>
                   </div>
                 </div>
@@ -161,7 +161,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                   </div>
                   <div className="text-left sm:text-right">
                     <span className="text-xs font-mono text-[#00ff9d] font-semibold">
-                      2023 • 88.8%
+                      2022 — 2023 • 88.8%
                     </span>
                   </div>
                 </div>
@@ -257,29 +257,54 @@ export default function ResumeModal({ isOpen, onClose }) {
 
             {/* Certifications & Languages */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 border-t border-slate-800/80">
-              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
-                <Award className="w-5 h-5 text-[#00ff9d] shrink-0" />
-                <div>
-                  <span className="text-[10px] font-mono text-slate-400 block uppercase">CERTIFICATION</span>
+              <div className="space-y-2 p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <div className="flex items-center gap-2 mb-1">
+                  <Award className="w-4 h-4 text-[#00ff9d] shrink-0" />
+                  <span className="text-[10px] font-mono text-slate-400 block uppercase">KEY CERTIFICATIONS</span>
+                </div>
+                <div className="space-y-2 text-xs font-mono">
+                  <a
+                    href="/assets/certificates/dcg_coimbatore_meetup.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between text-slate-200 hover:text-[#00ff9d] transition-colors"
+                  >
+                    <span>• DCG Coimbatore Chapter Meetup (Apr 2026)</span>
+                    <ExternalLink className="w-3 h-3 text-[#00ff9d]" />
+                  </a>
+                  <a
+                    href="/assets/certificates/dcg_thoughtworks_workshop.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between text-slate-200 hover:text-[#00ff9d] transition-colors"
+                  >
+                    <span>• DCG91422 Thoughtworks Workshop (Jul 2026)</span>
+                    <ExternalLink className="w-3 h-3 text-[#00ff9d]" />
+                  </a>
                   <a
                     href="/assets/Cisco_Python.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-heading font-semibold text-xs sm:text-sm text-slate-200 hover:text-[#00ff9d] flex items-center gap-1.5 transition-colors"
+                    className="flex items-center justify-between text-slate-200 hover:text-[#00ff9d] transition-colors"
                   >
-                    <span>Python Essentials 1 — Cisco (Nov 2025)</span>
-                    <ExternalLink className="w-3.5 h-3.5 text-[#00ff9d]" />
+                    <span>• Python Essentials 1 — Cisco (Nov 2025)</span>
+                    <ExternalLink className="w-3 h-3 text-[#00ff9d]" />
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
-                <Languages className="w-5 h-5 text-[#00e5ff] shrink-0" />
-                <div>
-                  <span className="text-[10px] font-mono text-slate-400 block uppercase">LANGUAGES KNOWN</span>
-                  <span className="font-heading font-semibold text-xs sm:text-sm text-slate-200">
-                    Tamil, English, Telugu (Native)
-                  </span>
+              <div className="flex flex-col justify-between p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <div className="flex items-center gap-3">
+                  <Languages className="w-5 h-5 text-[#00e5ff] shrink-0" />
+                  <div>
+                    <span className="text-[10px] font-mono text-slate-400 block uppercase">LANGUAGES KNOWN</span>
+                    <span className="font-heading font-semibold text-xs sm:text-sm text-slate-200">
+                      Tamil, English, Telugu (Native)
+                    </span>
+                  </div>
+                </div>
+                <div className="mt-3 text-[11px] font-mono text-slate-400">
+                  <span className="text-[#00ff9d]">Security Track:</span> Network Security, Packet Analysis, Static Code Auditing
                 </div>
               </div>
             </div>

@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "setup:certs": "node scripts/setup-certificates.js",
+    "predev": "node scripts/setup-certificates.js",
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/setup-certificates.js && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

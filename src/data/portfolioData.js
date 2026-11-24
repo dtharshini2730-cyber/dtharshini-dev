@@ -9,7 +9,7 @@ export const portfolioData = {
     phone: "9345419406",
     email: "dtharshini2730@gmail.com",
     github: "https://github.com/dtharshini2730-cyber",
-    linkedin: "https://www.linkedin.com/in/devatharshini-r-70a221427",
+    linkedin: "https://www.linkedin.com/in/r-devatharshini-405a9a43a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     location: "Coimbatore, India",
     resumeUrl: "/assets/R_Devatharshini_Resume.pdf",
     profileImage: "/assets/profile.jpg",
@@ -65,7 +65,7 @@ export const portfolioData = {
       {
         degree: "Higher Secondary Certificate (HSC — 12th)",
         institution: "Dr V Gengusamy Naidu Matric Higher Secondary School",
-        duration: "2023 — 2025",
+        duration: "2024 — 2025",
         status: "Completed",
         score: "94.1%",
         accent: "#00e5ff"
@@ -73,7 +73,7 @@ export const portfolioData = {
       {
         degree: "Secondary School Leaving Certificate (SSLC — 10th)",
         institution: "Dr V Gengusamy Naidu Matric Higher Secondary School",
-        duration: "2021 — 2023",
+        duration: "2022 — 2023",
         status: "Completed",
         score: "88.8%",
         accent: "#a855f7"
@@ -247,44 +247,105 @@ export const portfolioData = {
       {
         id: "nasa",
         title: "NASA Space Apps Challenge",
-        category: "Global Hackathon",
-        badge: "Participant / Innovator",
-        description: "Collaborated in the world's largest annual space & science hackathon, developing collaborative technology solutions using open-source space data.",
-        tag: "Global Innovation"
+        awardTitle: "Galactic Problem Solver",
+        category: "Global Space Hackathon",
+        badge: "Galactic Problem Solver",
+        issuer: "NASA International Space Apps Challenge",
+        date: "October 4–5, 2025",
+        description: "Awarded Galactic Problem Solver certificate in the world's largest space & science hackathon, collaborating on innovative solutions to address challenges on Earth and in space.",
+        tag: "Global Innovation",
+        credentialUrl: "/assets/certificates/nasa_space_apps.jpg",
+        type: "image"
       },
       {
         id: "adobe",
         title: "Adobe University Hackathon",
-        category: "Industry Challenge",
+        awardTitle: "Certificate of Participation",
+        category: "Industry Hackathon",
         badge: "Competitive Participant",
-        description: "Engineered innovative software prototype tackling complex software workflows and creative digital problem statements.",
-        tag: "Software Engineering"
+        issuer: "Adobe & Unstop",
+        date: "9th August 2026",
+        description: "Participated representing KGISL Institute of Technology in the prestigious Adobe University Hackathon organised by Adobe, tackling creative digital problem statements.",
+        tag: "Software Engineering",
+        credentialUrl: "/assets/certificates/adobe_hackathon.png",
+        type: "image"
       },
       {
         id: "brewingsec",
-        title: "BrewingSec Hackathon",
+        title: "BrewingSec Cybersecurity Hackathon",
+        awardTitle: "12-Hour Cyber Challenge Participant",
         category: "Cybersecurity Competition",
         badge: "Security Challenger",
-        description: "Tackled intense defensive and offensive cybersecurity problem scenarios, demonstrating threat analysis and rapid defensive scripting.",
-        tag: "Cyber Defense"
+        issuer: "BrewingSec CyberDev Summit 2026 (KGiSL & BlackPerl)",
+        date: "July 25th 2026",
+        description: "Demonstrated enthusiasm, teamwork, and defensive problem-solving throughout an intense 12-hour live cybersecurity hackathon challenge.",
+        tag: "Cyber Defense",
+        credentialUrl: "/assets/certificates/brewingsec_hackathon.jpg",
+        type: "image"
       }
     ]
   },
 
   certifications: {
     sectionNumber: "06",
-    title: "Certifications",
-    subtitle: "Verified credentials validating skills in cybersecurity, development, and systems.",
+    title: "Certifications & Credentials",
+    subtitle: "Official, verified credentials validating skills across cybersecurity, DEFCON community workshops, and Python programming.",
     list: [
+      {
+        id: "dcg-meetup-2026",
+        title: "DCG Coimbatore Chapter Meetup",
+        issuer: "DEFCON Group Coimbatore (DCG 91422)",
+        recipient: "R Devatharshini",
+        date: "18 April 2026",
+        issuedDate: "24 April 2026",
+        certId: "DCGCON18040600",
+        venue: "Kumaraguru College of Technology, Coimbatore",
+        category: "Cybersecurity Community",
+        signatory: "DCG Coimbatore Team",
+        verifiedBy: "DCG 91422 Coimbatore",
+        description: "Awarded for actively participating in the DCG Coimbatore Chapter Meetup, reflecting strong commitment to learning, collaboration, and advancing cybersecurity awareness within the community.",
+        previewImage: "/assets/certificates/dcg_coimbatore_meetup.jpg",
+        credentialUrl: "/assets/certificates/dcg_coimbatore_meetup.jpg",
+        badge: "DCG 91422 VERIFIED",
+        accent: "#22c55e",
+        type: "image"
+      },
+      {
+        id: "dcg-workshop-2026",
+        title: "DCG91422 Offline Cybersecurity Workshop",
+        issuer: "DEFCON Group Coimbatore (DCG 91422)",
+        recipient: "R DEVATHARSHINI",
+        date: "18 July 2026",
+        issuedDate: "23 July 2026",
+        certId: "DCGCBE1807011",
+        venue: "Thoughtworks, Coimbatore",
+        category: "Hands-on Cybersecurity",
+        signatory: "DCG91422 Coimbatore Team",
+        verifiedBy: "DCG 91422 & Thoughtworks",
+        description: "Awarded for successfully participating in the DCG91422 offline workshop at Thoughtworks Coimbatore, advancing continuous learning and technical cybersecurity knowledge.",
+        previewImage: "/assets/certificates/dcg_thoughtworks_workshop.jpg",
+        credentialUrl: "/assets/certificates/dcg_thoughtworks_workshop.jpg",
+        badge: "DCG 91422 WORKSHOP",
+        accent: "#f43f5e",
+        type: "image"
+      },
       {
         id: "cisco-python-1",
         title: "Python Essentials 1",
         issuer: "Cisco Networking Academy & Python Institute",
         recipient: "Devatharshini Rajeshkannan",
         date: "15 Nov 2025",
+        issuedDate: "15 Nov 2025",
+        certId: "CISCO-PY-ESS1",
+        category: "Programming & Algorithms",
         signatory: "Lynn Bloomer (Director, Cisco Networking Academy)",
+        verifiedBy: "Cisco Networking Academy",
         description: "Successfully completed Python Essentials 1 course through the Cisco Networking Academy program, covering core Python fundamentals, data structures, and algorithmic scripting.",
-        credentialUrl: "/assets/Cisco_Python.pdf"
+        previewImage: "/assets/certificates/cisco_python_certificate.png",
+        credentialUrl: "/assets/Cisco_Python.pdf",
+        badge: "CISCO VERIFIED",
+        accent: "#00ff9d",
+        type: "pdf"
       }
     ],
     placeholderCard: {
